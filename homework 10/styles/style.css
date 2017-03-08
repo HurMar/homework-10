@@ -1,0 +1,13 @@
+.transitions-images .image2, .transitions-images:hover .image1 {
+opacity: 1;
+position: absolute;
+}
+.transitions-images:hover .image2, .transitions-images .image1 {
+opacity: 0;
+position: fixed;
+
+}
+.transitions-images img {
+transition: opacity 2s linear;
+position: absolute;
+}
